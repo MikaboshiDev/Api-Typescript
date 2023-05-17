@@ -1,0 +1,39 @@
+{
+     "name": "api---typescript",
+     "version": "1.0.0",
+     "description": "",
+     "main": "index.js",
+     "scripts": {
+          "neko": "nodemon ./app/app.ts",
+          "build": "tsc",
+          "start": "node ./dist/app.js"
+     },
+     "keywords": [],
+     "author": "",
+     "license": "ISC",
+     "dependencies": {
+          "bcryptjs": "^2.4.3",
+          "colors": "^1.4.0",
+          "cors": "^2.8.5",
+          "dotenv": "^16.0.3",
+          "express": "^4.18.2",
+          "jsonwebtoken": "^9.0.0",
+          "mongoose": "^7.1.0",
+          "morgan": "^1.10.0",
+          "multer": "^1.4.5-lts.1",
+          "swagger-jsdoc": "^6.2.8",
+          "swagger-ui-express": "^4.6.3"
+     },
+     "devDependencies": {
+          "@types/bcryptjs": "^2.4.2",
+          "@types/cors": "^2.8.13",
+          "@types/dotenv": "^8.2.0",
+          "@types/express": "^4.17.17",
+          "@types/jsonwebtoken": "^9.0.2",
+          "@types/mongoose": "^5.11.97",
+          "@types/morgan": "^1.9.4",
+          "@types/multer": "^1.4.7",
+          "@types/swagger-jsdoc": "^6.0.1",
+          "@types/swagger-ui-express": "^4.1.3"
+     }
+}
